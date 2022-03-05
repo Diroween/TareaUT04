@@ -12,10 +12,25 @@ package cuentas;
 
 public class CCuenta {
 
-
+	/**
+	 * El nombre un supuesto cliente
+	 * */
+	
     private String nombre;
+    
+    /**
+     * La cuenta de un supuesto cliente
+     * */
+    
     private String cuenta;
+    /** 
+     * El saldo que tiene un supuesto cliente en la cuenta
+     * */
     private double saldo;
+    
+    /**
+     * El tipo de interés que se le aplica a la cuenta
+     * */
     private double tipoInterés;
     
     /**
@@ -47,6 +62,8 @@ public class CCuenta {
      * Metodo que devuelve el saldo actual
      * 
      * @deprecated sería mejor usar getSaldo(), ya que este metodo únicamente llama al metodo getter
+     * 
+     * @return getSaldo() el saldo actual de la cuenta
      * */
 
     public double estado()
@@ -161,7 +178,7 @@ public class CCuenta {
 	/**
 	 * Introducimos el tipo de interes a aplicar en cuenta de un supuesto cliente
 	 * 
-	 * @param tipoInteres que se le va a aplicar
+	 * @param tipoInterés que se le va a aplicar
 	 * 
 	 * */
 

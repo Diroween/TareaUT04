@@ -1,7 +1,7 @@
 package cuentas;
 
 /**
- * Método main que usamos para simular las operaciones de una cuenta desde su creación
+ * Clase main que usamos para simular las operaciones de una cuenta desde su creación
  * 
  * @author El profesor
  * @author Yosef Guillermo Karam Müller
@@ -10,6 +10,12 @@ package cuentas;
  * */
 
 public class Main {
+	
+	/**
+	 * Método main que usamos para llevar a cabo las simulaciones
+	 * 
+	 *  @param args El parametro de todos los métodos main
+	 * */
 
     public static void main(String[] args) {
         CCuenta cuenta1;
@@ -23,7 +29,6 @@ public class Main {
      * 
      * @param cantidad el saldo inicial con el que abre la cuenta un supuesto cliente
      * 
-     * @exception Exception excepciones creadas dentro del método y se lanzarán cuando n ose pueda ingresar o retirar
      * */
 
 	public static void operativa_cuenta(float cantidad) {
